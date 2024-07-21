@@ -4,11 +4,11 @@
 <head>
   <meta charset="utf-8">
   <title>MY Portfolio</title>
-  
+
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  
+
   <!-- ** Plugins Needed for the Project ** -->
   <!-- Bootstrap -->
   <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
@@ -16,317 +16,353 @@
   <link rel="stylesheet" href="plugins/slick/slick.css">
   <!-- themefy-icon -->
   <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
-  <link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-	integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-	crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Main Stylesheet -->
   <link href="css/style.css" rel="stylesheet">
-  
+
   <!--Favicon-->
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/myprof.png" type="image/x-icon">
 
 </head>
 
 <body>
-  
 
-<header class="navigation fixed-top">
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand font-tertiary h3" href="index.html"><img style="height: 80px; margin-top:-60px;margin-bottom: -60px ;" src="images/logo.png" alt="Myself"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
-      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
 
-    <div class="collapse navbar-collapse text-center" id="navigation">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">about</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#Skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#projects">project</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</header>
+  <header class="navigation fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand font-tertiary h3" href="index.html"><img
+          style="height: 80px; margin-top:-80px;margin-bottom: -60px ;" src="images/logo.png" alt="Myself"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<!-- hero area -->
-<section class="hero-area bg-primary" id="parallax">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-11 mx-auto">
-        <h1 class="text-white font-tertiary">Hi! I’m <br> Jayesh Paithankar <br> Software Engineer</h1>
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
-    </div>
-  </div>
-  <div class="layer-bg w-100">
-    <img class="img-fluid w-100" src="images/illustrations/leaf-bg.png" alt="bg-shape">
-  </div>
-  <div class="layer" id="l2">
-    <img src="images/illustrations/dots-cyan.png" alt="bg-shape">
-  </div>
-  <div class="layer" id="l3">
-    <img src="images/illustrations/leaf-orange.png" alt="bg-shape">
-  </div>
-  <div class="layer" id="l4">
-    <img src="images/illustrations/dots-orange.png" alt="bg-shape">
-  </div>
-  <div class="layer" id="l5">
-    <img src="images/illustrations/leaf-yellow.png" alt="bg-shape">
-  </div>
-  <div class="layer" id="l6">
-    <img src="images/illustrations/leaf-cyan.png" alt="bg-shape">
-  </div>
-  <div class="layer" id="l7">
-    <img src="images/illustrations/dots-group-orange.png" alt="bg-shape">
-  </div>
-  <div class="layer" id="l8">
-    <img src="images/illustrations/leaf-pink-round.png" alt="bg-shape">
-  </div>
-  <div class="layer" id="l9">
-    <img src="images/illustrations/leaf-cyan-2.png" alt="bg-shape">
-  </div>
-  <!-- social icon -->
-  <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
-    <li class="mb-3"><a class="text-white" href="#"><i class="ti-facebook"></i></a></li>
-    <li class="mb-3"><a class="text-white" href="#"><i class="ti-instagram"></i></a></li>
-    <li class="mb-3"><a class="text-white" href="#"><i class="ti-dribbble"></i></a></li>
-    <li class="mb-3"><a class="text-white" href="#"><i class="ti-twitter"></i></a></li>
-  </ul>
-  <!-- /social icon -->
-</section>
-<!-- /hero area -->
+    </nav>
+  </header>
 
-<!-- about -->
-<section class="section" id="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 mx-auto text-center">
-        <p class="font-secondary paragraph-lg text-dark">I am a diploma holder in computer science and engineering and Done 
-          btech in same branch.On a Path to become the professional Software Developer in the Favorite field Android Developement.
-          I have interest in ethical hacking and I also want to become an certified Ethical Hacker.</p>
-        
-      </div>
-    </div>
-  </div>
-</section>
-<!-- /about -->
-
-<!-- skills -->
-<section class="section" id="Skills">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-title">Skills</h2>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-        <div class="card shadow text-center">
-          <div class="position-relative rounded-top progress-wrapper" data-color="#fdb157">
-            <div class="wave" data-progress="70%"></div>
-          </div>
-          <div class="card-footer bg-white">
-            <h4 class="card-title">Flutter And Dart (70%)</h4>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-        <div class="card shadow text-center">
-          <div class="position-relative rounded-top progress-wrapper" data-color="#9473e6">
-            <div class="wave" data-progress="70%"></div>
-          </div>
-          <div class="card-footer bg-white">
-            <h4 class="card-title">Android Developement (70%)</h4>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-        <div class="card shadow text-center">
-          <div class="position-relative rounded-top progress-wrapper" data-color="#bdecf6">
-            <div class="wave" data-progress="40%"></div>
-          </div>
-          <div class="card-footer bg-white">
-            <h4 class="card-title">Web Developement (40%)</h4>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-        <div class="card shadow text-center">
-          <div class="position-relative rounded-top progress-wrapper" data-color="#ffbcaa">
-            <div class="wave" data-progress="40%"></div>
-          </div>
-          <div class="card-footer bg-white">
-            <h4 class="card-title">Firebase (40%)</h4>
+  <!-- hero area -->
+  <section class="hero-area bg-primary" id="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h1 class="text-white font-tertiary">Hi! I’m <br> Jayesh Paithankar <br> Software Engineer<br>(Flutter Developer) </h1>
+          <div class="container" style="height: 100;width: 50;">
+            <a href="https://drive.google.com/file/d/1DJKVQNp_K_Z-RRYoAp1PExzGbfLIxVpt/view?usp=sharing" class="btn btn-light mt-3 ">Resume</a>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- /skills -->
-
-<!-- experience -->
-<!--
-<section class="section">
-  <div class="container">
-    <div class="row justify-content-around">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-title">Experience</h2>
-      </div>
-      <div class="col-lg-3 col-md-4 text-center">
-        <img src="images/experience/icon-1.png" alt="icon">
-        <p class="mb-0">Jan 2007 - Feb 2009</p>
-        <h4>Junior UX Designer</h4>
-        <h6 class="text-light">WEBEX</h6>
-      </div>
-      <div class="col-lg-3 col-md-4 text-center">
-        <img src="images/experience/icon-2.png" alt="icon">
-        <p class="mb-0">Mar 2009 - Aug 2014</p>
-        <h4>UX & UI Designer</h4>
-        <h6 class="text-light">AUGMEDIX</h6>
-      </div>
-      <div class="col-lg-3 col-md-4 text-center">
-        <img src="images/experience/icon-3.png" alt="icon">
-        <p class="mb-0">Sep 2014 - Present</p>
-        <h4>Senior UI Designer</h4>
-        <h6 class="text-light">THEMEFISHER</h6>
-      </div>
+    <div class="layer-bg w-10">
+      <img class="img-fluid w-100" src="images/illustrations/leaf-bg.png" alt="bg-shape">
     </div>
-  </div>
-</section>-->
-<!-- ./experience -->
+    <div class="layer" id="l2">
+      <img src="images/illustrations/dots-cyan.png" alt="bg-shape">
+    </div>
+    <div class="layer" id="l3">
+      <img src="images/illustrations/leaf-orange.png" alt="bg-shape">
+    </div>
+    <div class="layer" id="l4">
+      <img src="images/illustrations/dots-orange.png" alt="bg-shape">
+    </div>
+    <div class="layer" id="l5">
+      <img src="images/illustrations/leaf-yellow.png" alt="bg-shape">
+    </div>
+    <div class="layer" id="l6">
+      <img src="images/illustrations/leaf-cyan.png" alt="bg-shape">
+    </div>
+    <div class="layer" id="l7">
+      <img src="images/illustrations/dots-group-orange.png" alt="bg-shape">
+    </div>
+    <div class="layer" id="l8">
+      <img src="images/illustrations/leaf-pink-round.png" alt="bg-shape">
+    </div>
+    <div class="layer" id="l9">
+      <img src="images/illustrations/leaf-cyan-2.png" alt="bg-shape">
+    </div>
+    <!-- social icon -->
+    <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
+      <li class="mb-3"><a class="text-white" href="https://github.com/hackerj122"><i class="fa-brands fa-github"></i></a></li>
+      <li class="mb-3"><a class="text-white" href="https://www.linkedin.com/in/jayesh-paithankar-25a730192"><i class="ti-linkedin"></i></a></li>
+    </ul>
+    <!-- /social icon -->
+  </section>
+  <!-- /hero area -->
 
-<!-- education -->
-<section class="section position-relative">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-title">Education</h2>
-      </div>
-      <div class="col-lg-6 col-md-6 mb-80">
-        <div class="d-flex">
-          <div class="mr-lg-5 mr-3">
-            <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
-          </div>
-          <div>
-            <p class="text-dark mb-1">2020 - 2023</p>
-            <h4>B.Tech in Computer Science And Engineering </h4>
-            <p class="mb-0 text-light">Indore Institute of Science And Technology</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-6 mb-80">
-        <div class="d-flex">
-          <div class="mr-lg-5 mr-3">
-            <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
-          </div>
-          <div>
-            <p class="text-dark mb-1">2017 - 2020</p>
-            <h4>Diploma in Computer Science And Engineering </h4>
-            <p class="mb-0 text-light">Jija Mata Govt. Polytechnic College</p>
-          </div>
+  <!-- about -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto text-center">
+          <p class="font-secondary paragraph-lg text-dark">Dynamic professional with a Bachelor's in Computer Science &
+            Engineering. Proficient in mobile app development, cybersecurity, and project management. Skilled in Dart,
+            Flutter, Java, and Android Studio. Proven ability to lead teams, innovate solutions, and deliver exceptional
+            results. Eager learner with a passion for staying abreast of industry trends and technologies.</p>
         </div>
       </div>
     </div>
-  </div>
-  <!-- bg image -->
-  <img class="img-fluid edu-bg-image w-100" src="images/backgrounds/education-bg.png" alt="bg-image">
-</section>
-<!-- /education -->
+  </section>
+  <!-- /about -->
 
-<!-- services -->
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title">Services</h2>
-      </div>
-      <div class="col-md-4 mb-4 mb-md-0">
-        <div class="card hover-shadow shadow">
-          <div class="card-body text-center px-4 py-5">
-            <i class="fas fa-laptop-medical icon mb-5 d-inline-block"></i>
-            <h4 class="mb-4">Computer Hardware and Maintenance</h4>
-            <p>Provid Computer Service like PC Assembling, Maintenance, virus Removel, OS Installation.</p>
+  <!-- skills -->
+  <section class="section" id="Skills">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-title">Skills</h2>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+          <div class="card shadow text-center align-items-center">
+            <img src="../images/flutter.png" alt="" height="150" width="150">
+            <!-- <div class="position-relative rounded-top progress-wrapper" data-color="#fdb157">
+              <div class="wave" data-progress="70%"></div>
+            </div> -->
+            <div class="card-footer bg-white">
+              <h4 class="card-title">Flutter Developement</h4>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-4 mb-4 mb-md-0">
-        <div class="card active-bg-primary hover-shadow shadow">
-          <div class="card-body text-center px-4 py-5">
-            <i class="fas fa-globe icon mb-5 d-inline-block"></i>
-            <h4 class="mb-4">Web Developement</h4>
-            <p>developing New website and Web App.</p>
+        <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+          <div class="card shadow text-center align-items-center">
+            <img src="../images/Android.png" alt="" height="150" width="150">
+            <!-- <div class="position-relative rounded-top progress-wrapper" data-color="#9473e6">
+              <div class="wave" data-progress="70%"></div>
+            </div> -->
+            <div class="card-footer bg-white">
+              <h4 class="card-title">Android Developement</h4>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-4 mb-4 mb-md-0">
-        <div class="card hover-shadow shadow">
-          <div class="card-body text-center px-4 py-5">
-            <i class="ti-android icon mb-5 d-inline-block"></i>
-            <h4 class="mb-4">Android Developement</h4>
-            <p>Passionate to Develop the Android App.</p>
+        <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+          <div class="card shadow text-center align-items-center">
+            <img src="../images/Java.png" alt="" height="150" width="150">
+            <!-- <div class="position-relative rounded-top progress-wrapper" data-color="#fdb157">
+              <div class="wave" data-progress="50%"></div>
+            </div> -->
+            <div class="card-footer bg-white">
+              <h4 class="card-title">Java</h4>
+            </div>
           </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+          <div class="card shadow text-center align-items-center">
+            <img src="../images/github.png" alt="" height="150" width="150">
+            <!-- <div class="position-relative rounded-top progress-wrapper" data-color="#fdb157">
+              <div class="wave" data-progress="70%"></div>
+            </div> -->
+            <div class="card-footer bg-white">
+              <h4 class="card-title">Github</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+          <div class="card shadow text-center align-items-center">
+            <img src="https://firebase.google.com/images/homepage/Google_Firebase_LogotoIcon_Black_V01.gif" alt=""
+              height="150" width="150">
+            <!-- <div class="position-relative rounded-top progress-wrapper" data-color="#ffbcaa">
+              <div class="wave" data-progress="40%"></div>
+            </div> -->
+            <div class="card-footer bg-white">
+              <h4 class="card-title">Firebase</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+          <div class="card shadow text-center align-items-center">
+            <img src="../images/web.png" alt="" height="150" width="200">
+            <!-- <div class="position-relative rounded-top progress-wrapper" data-color="#bdecf6">
+              <div class="wave" data-progress="40%"></div>
+            </div> -->
+            <div class="card-footer bg-white">
+              <h4 class="card-title">Web Developement</h4>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- /skills -->
+
+  <!-- experience -->
+
+  <section class="section">
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-title">Experience</h2>
+        </div>
+        <div class="col-lg-3 col-md-4 text-center">
+          <img src="images/experience/icon-1.png" alt="icon">
+          <p class="mb-0">Jul 2023 - Jan 2024</p>
+          <h4>Flutter Developer</h4>
+          <h6 class="text-light">Yuvaarth Technocrats</h6>
+        </div>
+        <div class="col-lg-3 col-md-4 text-center">
+          <img src="images/experience/icon-2.png" alt="icon">
+          <p class="mb-0">Apr 2024 - Present</p>
+          <h4>Trainee Software Engineer (Flutter)</h4>
+          <h6 class="text-light">Nenosystems Consulting Services Pvt Ltd</h6>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- /services -->
+  </section>
+  <!-- ./experience -->
 
-<!-- projects -->
-<section class="section"id="projects">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title">PROJECTS</h2>
-      </div>
-    </div>
-    <div class="row shuffle-wrapper">
-      <div class="col-lg-4 col-6 mb-4 shuffle-item">
-        <div class="position-relative rounded hover-wrapper">
-          <img src="images/projects/ecommerce marketing.jpg" alt="portfolio-image" class="img-fluid rounded w-100">
-          <div class="hover-overlay">
-            <div class="hover-content">
-              <p style="color:white;">E-commerce (electronic commerce) is the buying and selling of goods and services.</p>
-              <a class="btn btn-light btn-sm" target="_blank" href="https://github.com/hackerj122/Ecom-demo">view project</a>
+  <!-- education -->
+  <section class="section position-relative">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-title">Education</h2>
+        </div>
+        <div class="col-lg-6 col-md-6 mb-80">
+          <div class="d-flex">
+            <div class="mr-lg-5 mr-3">
+              <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+            </div>
+            <div>
+              <p class="text-dark mb-1">2020 - 2023</p>
+              <h4>B.Tech in Computer Science And Engineering </h4>
+              <p class="mb-0 text-light">Indore Institute of Science And Technology</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 mb-80">
+          <div class="d-flex">
+            <div class="mr-lg-5 mr-3">
+              <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+            </div>
+            <div>
+              <p class="text-dark mb-1">2017 - 2020</p>
+              <h4>Diploma in Computer Science And Engineering </h4>
+              <p class="mb-0 text-light">Jija Mata Govt. Polytechnic College</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-6 mb-4 shuffle-item">
-        <div class="position-relative rounded hover-wrapper">
-          <img src="images/projects/elearning.jpg" alt="portfolio-image" class="img-fluid rounded w-100">
-          <div class="hover-overlay">
-            <div class="hover-content">
-              <p style="color:white;"><span style="font-weight: bold;">SkillsLearn(Android App)</span><br>
-                • Created an Android application for E-learning. Provide the educational content in form of PDF and Texted data.Incorporates external APIs to enhance functionality and provide additional features.
-                The app has a quiz in it</p>
-              <a class="btn btn-light btn-sm" target="_blank" href="https://github.com/hackerj122/Skills_Learn">view project</a>
+    </div>
+    <!-- bg image -->
+    <img class="img-fluid edu-bg-image w-100" src="images/backgrounds/education-bg.png" alt="bg-image">
+  </section>
+  <!-- /education -->
+
+  <!-- services -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">Services</h2>
+        </div>
+        <div class="col-md-3 mb-4 mb-md-0">
+          <div class="card hover-shadow shadow">
+            <div class="card-body text-center px-4 py-5">
+              <i class="ti-android icon mb-5 d-inline-block"></i>
+              <h4 class="mb-4">Android Developement</h4>
+              <p>Passionate to Develop the Android App.</p>
             </div>
           </div>
         </div>
+        <div class="col-md-3 mb-4 mb-md-0">
+          <div class="card hover-shadow shadow">
+            <div class="card-body text-center px-4 py-5">
+              <i class="fa-brands fa-flutter icon mb-5 d-inline-block"></i>
+              <h4 class="mb-4">Flutter Developement</h4>
+              <p>Android/iOS Apps</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4 mb-md-0">
+          <div class="card hover-shadow shadow">
+            <div class="card-body text-center px-4 py-5">
+              <i class="fas fa-laptop-medical icon mb-5 d-inline-block"></i>
+              <h4 class="mb-4">Computer Hardware and Maintenance</h4>
+              <p>Provid Computer Service like PC Assembling, Maintenance, virus Removel, OS Installation.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4 mb-md-0">
+          <div class="card hover-shadow shadow">
+            <div class="card-body text-center px-4 py-5">
+              <i class="fas fa-globe icon mb-5 d-inline-block"></i>
+              <h4 class="mb-4">Web Developement</h4>
+              <p>developing New website and Web App.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</section>
-<!-- /projects -->
+  </section>
+  <!-- /services -->
 
-<!-- testimonial -->
+  <!-- projects -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">PROJECTS</h2>
+        </div>
+      </div>
+      <div class="row shuffle-wrapper">
+        <div class="col-lg-4 col-6 mb-4 shuffle-item">
+          <div class="position-relative rounded hover-wrapper">
+            <img src="images/projects/ecommerce marketing.jpg" alt="portfolio-image" class="img-fluid rounded w-100">
+            <div class="hover-overlay">
+              <div class="hover-content">
+                <p style="color:white;">E-commerce (electronic commerce) is the buying and selling of goods and
+                  services.</p>
+                <a class="btn btn-light btn-sm" target="_blank" href="https://github.com/hackerj122/Ecom-demo">view
+                  project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6 mb-4 shuffle-item">
+          <div class="position-relative rounded hover-wrapper">
+            <img src="images/projects/elearning.jpg" alt="portfolio-image" class="img-fluid rounded w-100">
+            <div class="hover-overlay">
+              <div class="hover-content">
+                <p style="color:white;"><span style="font-weight: bold;">SkillsLearn(Android App)</span><br>
+                  • Created an Android application for E-learning. Provide the educational content in form of PDF and
+                  Texted data.Incorporates external APIs to enhance functionality and provide additional features.
+                  The app has a quiz in it</p>
+                <a class="btn btn-light btn-sm" target="_blank" href="https://github.com/hackerj122/Skills_Learn">view
+                  project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- /projects -->
 
-<!-- /testimonial -->
+  <!-- testimonial -->
 
-<!-- client logo slider -->
-<!--
+  <!-- /testimonial -->
+
+  <!-- client logo slider -->
+  <!--
 <section class="section pb-0">
   <div class="container">
     <div class="client-logo-slider d-flex align-items-center">
@@ -353,10 +389,10 @@
     </div>
   </div>
 </section>-->
-<!-- /client logo slider -->
+  <!-- /client logo slider -->
 
-<!-- blog -->
-<!--
+  <!-- blog -->
+  <!--
 <section class="section">
   <div class="container">
     <div class="row">
@@ -405,79 +441,82 @@
     </div>
   </div>
 </section>-->
-<!-- /blog -->
+  <!-- /blog -->
 
-<!-- contact -->
-<section class="section section-on-footer" id="contact" data-background="images/backgrounds/bg-dots.png">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title">Contact Info</h2>
-      </div>
-      <div class="col-lg-8 mx-auto module-border-wrap">
-        <div class="bg-white rounded text-center p-5 shadow-down module">
-          <h4 class="mb-80">Contact Form</h4>
-          <form action="#" class="row">
-            <div class="col-md-6">
-              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
-            </div>
-            <div class="col-md-6">
-              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4">
-            </div>
-            <div class="col-12">
-              <textarea name="message" id="message" class="form-control px-0 mb-4"
-                placeholder="Type Message Here"></textarea>
-            </div>
-            <div class="col-lg-6 col-10 mx-auto">
-              <button class="btn btn-primary w-100">send</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- /contact -->
-
-<!-- footer -->
-<footer class="bg-dark footer-section">
-  <div class="section">
+  <!-- contact -->
+  <section class="section section-on-footer" id="contact" data-background="images/backgrounds/bg-dots.png">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <h5 class="text-light">Email</h5>
-          <p class="text-white paragraph-lg font-secondary">jaypaithankar12@gmail.com</p>
+        <div class="col-12 text-center">
+          <h2 class="section-title">Contact Info</h2>
         </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Phone</h5>
-          <p class="text-white paragraph-lg font-secondary">+91 9753418298</p>
-        </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Address</h5>
-          <p class="text-white paragraph-lg font-secondary">Madhya Pradesh,India</p>
+        <div class="col-lg-8 mx-auto module-border-wrap">
+          <div class="bg-white rounded text-center p-5 shadow-down module">
+            <h4 class="mb-80">Contact Form</h4>
+            <form action="#" class="row">
+              <div class="col-md-6">
+                <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
+              </div>
+              <div class="col-md-6">
+                <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4">
+              </div>
+              <div class="col-12">
+                <textarea name="message" id="message" class="form-control px-0 mb-4"
+                  placeholder="Type Message Here"></textarea>
+              </div>
+              <div class="col-lg-6 col-10 mx-auto">
+                <button class="btn btn-primary w-100">send</button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="border-top text-center border-dark py-5">
-    <p class="mb-0 text-light">Copyright ©<script>
-        var CurrentYear = new Date().getFullYear()
-        document.write(CurrentYear)
-      </script> Designed by <a href="https://www.linkedin.com/in/jayesh-paithankar-25a730192/">Jayesh Paithankar</a></p>
-  </div>
-</footer>
-<!-- /footer -->
+  </section>
+  <!-- /contact -->
+
+  <!-- footer -->
+  <footer class="bg-dark footer-section">
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5 class="text-light">Email</h5>
+            <p class="text-white paragraph-lg font-secondary">jaypaithankar12@gmail.com</p>
+          </div>
+          <div class="col-md-4">
+            <h5 class="text-light">Phone</h5>
+            <p class="text-white paragraph-lg font-secondary">+91 9753418298</p>
+          </div>
+          <div class="col-md-4">
+            <h5 class="text-light">Address</h5>
+            <p class="text-white paragraph-lg font-secondary">Madhya Pradesh,India</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="border-top text-center border-dark py-5">
+      <p class="mb-0 text-light">Copyright ©
+        <script>
+          var CurrentYear = new Date().getFullYear()
+          document.write(CurrentYear)
+        </script> Designed by <a href="https://www.linkedin.com/in/jayesh-paithankar-25a730192/">Jayesh Paithankar</a>
+      </p>
+    </div>
+  </footer>
+  <!-- /footer -->
 
 
-<script src="plugins/jQuery/jquery.min.js"></script>
+  <script src="plugins/jQuery/jquery.min.js"></script>
 
-<script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
 
-<script src="plugins/slick/slick.min.js"></script>
+  <script src="plugins/slick/slick.min.js"></script>
 
-<script src="plugins/shuffle/shuffle.min.js"></script>
+  <script src="plugins/shuffle/shuffle.min.js"></script>
 
-<script src="js/script.js"></script>
+  <script src="js/script.js"></script>
 
 </body>
+
 </html>
