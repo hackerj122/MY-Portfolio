@@ -443,37 +443,67 @@
 </section>-->
   <!-- /blog -->
 
-  <!-- contact -->
-  <section class="section section-on-footer" id="contact" data-background="images/backgrounds/bg-dots.png">
-    <div class="container">
+  <!-- Contact Section -->
+<section class="section section-on-footer" id="contact" data-background="images/backgrounds/bg-dots.png">
+  <div class="container">
       <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="section-title">Contact Info</h2>
-        </div>
-        <div class="col-lg-8 mx-auto module-border-wrap">
-          <div class="bg-white rounded text-center p-5 shadow-down module">
-            <h4 class="mb-80">Contact Form</h4>
-            <form action="#" class="row">
-              <div class="col-md-6">
-                <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
-              </div>
-              <div class="col-md-6">
-                <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4">
-              </div>
-              <div class="col-12">
-                <textarea name="message" id="message" class="form-control px-0 mb-4"
-                  placeholder="Type Message Here"></textarea>
-              </div>
-              <div class="col-lg-6 col-10 mx-auto">
-                <button class="btn btn-primary w-100">send</button>
-              </div>
-            </form>
+          <div class="col-12 text-center">
+              <h2 class="section-title">Contact Info</h2>
           </div>
-        </div>
+          <div class="col-lg-8 mx-auto module-border-wrap">
+              <div class="bg-white rounded text-center p-5 shadow-down module">
+                  <h4 class="mb-80">Contact Form</h4>
+                  <!-- Contact Form -->
+                  <form id="contact-form" class="row">
+                      <div class="col-md-6">
+                          <input type="text" id="from_name" name="from_name" placeholder="Full Name" class="form-control px-0 mb-4" required>
+                      </div>
+                      <div class="col-md-6">
+                          <input type="email" id="reply_to" name="reply_to" placeholder="Email Address" class="form-control px-0 mb-4" required>
+                      </div>
+                      <div class="col-md-6">
+                        <input hidden type="email" id="to_name" name="to_name" value="jaypaithankar12@gmail.com" class="form-control px-0 mb-4" required>
+                    </div>
+                      <div class="col-12">
+                          <textarea name="message" id="message" class="form-control px-0 mb-4" placeholder="Type Message Here" required></textarea>
+                      </div>
+                      <div class="col-lg-6 col-10 mx-auto">
+                          <button class="btn btn-primary w-100" type="submit" id="button">Send</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
       </div>
-    </div>
-  </section>
-  <!-- /contact -->
+  </div>
+</section>
+
+<!-- EmailJS Script -->
+<script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+  emailjs.init('7rE7L8F2taCsNj82W')
+</script>
+<script type="text/javascript">
+  const btn = document.getElementById('button');
+
+document.getElementById('contact-form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Sending...';
+
+   const serviceID = 'default_service';
+   const templateID = 'template_g1x5yf7';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Email';
+      alert('Sent!');
+    }, (err) => {
+      btn.value = 'Send Email';
+      alert(JSON.stringify(err));
+    });
+});
+</script>
 
   <!-- footer -->
   <footer class="bg-dark footer-section">
